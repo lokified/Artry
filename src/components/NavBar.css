@@ -1,0 +1,118 @@
+nav{
+    position: fixed;
+    top: 0;
+    height: 5rem;
+    width: 100vw;
+    z-index: 11;
+    background: transparent;
+    transition: var(--transition);
+}
+
+button{
+    display: none;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.links{
+    display: flex;
+}
+
+.links a{
+    color: var(--cl-white);
+    padding-right: 2.5em;
+    transition: all 400ms ease-in-out;
+}
+.links a:hover{
+    color: #a89797;
+}
+
+
+
+/* tablets */
+@media screen and (max-width : 1024px) {
+
+    .logo{
+        position: absolute;
+        left: 14%;
+    }
+
+    .links{
+        flex-direction: column;
+        position: fixed;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        gap: 0;
+        display: none;
+    }
+
+    .links li a{
+        width: 100%;
+        height: 5rem;
+    }
+
+    
+    .links.active {
+        background: var(--secondary-color);
+        width: 100%;
+        height: 50%;
+        display: grid;
+        place-items: center;
+        transition: var(--transition);
+    }
+
+    .links.active li a:hover{
+        color: var(--cl-white);
+    }
+
+    nav button{
+        display: inline-block;
+        background: transparent;
+        font-size: 1.8rem;
+        color: var(--cl-white);
+        border: none;
+        cursor: pointer;
+    }
+
+}
+
+
+/* phones */
+@media screen and (max-width : 600px) {
+
+    .logo{
+        left: 20%;
+    }
+
+    .nav_btn > Button{
+        width: 6.5rem;
+        padding: .8rem;
+        font-size: .7rem;
+        margin: .5rem;
+    }
+    
+}
+
+@media screen and (max-width : 370px) {
+
+    .logo{
+        left: 20%;
+    }
+
+    .nav_btn > Button{
+        display: block;
+        width: 5rem;
+        padding: .3rem;
+        font-size: .6rem;
+        margin: .5rem;
+    }
+    
+}

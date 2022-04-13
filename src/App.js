@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import NavBar from './components/NavBar';
+import Collections from './components/pages/Collections';
+import Home from './components/pages/Home';
+import MarketPlace from './components/pages/MarketPlace';
+import Footer from './components/Footer';
 
 function App() {
+
+  window.addEventListener('scroll', () => {
+    document.querySelector('nav').classList.toggle
+       ('window-scroll', window.scrollY > 0)
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/marketplace' element={<MarketPlace />} />
+        <Route path='/collections' element={<Collections />} />
+      </Routes>
+      
+      <Footer />
+    </>
   );
 }
 

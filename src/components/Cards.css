@@ -1,0 +1,16 @@
+.live_auctions{
+    margin: 7rem 2rem;
+}
+
+.cards{
+    margin-top: -4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width : 1024px) {
+    .cards {
+        margin-top: 1rem;
+    }
+}

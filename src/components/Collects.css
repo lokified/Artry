@@ -1,0 +1,10 @@
+.collections{
+    margin: 5rem 2rem;
+}
+
+.collections_card{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

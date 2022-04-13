@@ -1,0 +1,43 @@
+  .btn{
+    padding: .75rem;
+    font-size: 1rem;
+    transition: var(--transition);
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: .3rem;
+    margin: 1rem;
+  }
+  
+  .btn_primary {
+    background: var(--btn-bg);
+    color: var(--cl-white);
+  }
+
+  .btn_primary:hover , .btn_outline:hover{
+    color: var(--cl-white);
+  }
+  
+  .btn_secondary {
+    background: var(--cl-white);
+    color: var(--primary-color);
+  }
+  
+  .btn_outline {
+    background: transparent;
+    border: 1px solid var(--cl-white);
+    color: var(--cl-white);
+  }
+
+  .btn_large {
+    width: 11rem;
+  }
+
+  .btn_md {
+    width: 9rem;
+  }
+
+  .btn_sm {
+    width: 10rem;
+    font-size: .75rem;
+    padding: .5rem;
+  }

@@ -1,0 +1,38 @@
+.card_col{
+    margin: 1rem .25rem 3rem;
+    border-radius: .6rem;
+    position: relative;
+    width: 20rem;
+    transition: var(--transition);
+}
+
+.card_col_img > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: .6rem;
+    z-index: -1;
+}
+
+.card_col:hover{
+    box-shadow: 0 .1rem .5rem var(--btn-bg);
+    transform: scale(1.1);
+}
+
+.card_col_info {
+    background: rgba(0, 0, 0, .5);
+    padding: 1rem 2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+}
+
+.card_col_info p{
+    font-size: .8rem;
+}
