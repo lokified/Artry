@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Artry/static/css/main.92dc255a.css",
-    "main.js": "/Artry/static/js/main.58877ec8.js",
+    "main.css": "/Artry/static/css/main.6da1d4cb.css",
+    "main.js": "/Artry/static/js/main.52e67bc4.js",
     "index.html": "/Artry/index.html",
-    "main.92dc255a.css.map": "/Artry/static/css/main.92dc255a.css.map",
-    "main.58877ec8.js.map": "/Artry/static/js/main.58877ec8.js.map"
+    "main.6da1d4cb.css.map": "/Artry/static/css/main.6da1d4cb.css.map",
+    "main.52e67bc4.js.map": "/Artry/static/js/main.52e67bc4.js.map"
   },
   "entrypoints": [
-    "static/css/main.92dc255a.css",
-    "static/js/main.58877ec8.js"
+    "static/css/main.6da1d4cb.css",
+    "static/js/main.52e67bc4.js"
   ]
 }
