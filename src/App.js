@@ -1,10 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import NavBar from './components/NavBar';
 import Collections from './components/pages/Collections';
 import Home from './components/pages/Home';
 import MarketPlace from './components/pages/MarketPlace';
-import Footer from './components/Footer';
+import NavBar from './components/NavBar';
 
 function App() {
 
@@ -17,12 +16,14 @@ function App() {
     <>
       <NavBar />
       <Routes>
+      
         <Route path='/' element={<Home />} />
         <Route path='/marketplace' element={<MarketPlace />} />
         <Route path='/collections' element={<Collections />} />
+      
       </Routes>
       
-      <Footer />
+      
     </>
   );
 }
