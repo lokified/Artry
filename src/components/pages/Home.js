@@ -4,13 +4,11 @@ import Footer from '../Footer';
 
 function Home() {
     return ( 
-        <>
-          
-           <Intro />
-          <Footer />
-
-        </>
-     );
+      <>
+        <Intro />
+        <Footer />
+      </>
+    );
 }
 
 export default Home;

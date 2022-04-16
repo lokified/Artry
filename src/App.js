@@ -16,13 +16,11 @@ function App() {
     <>
       <NavBar />
       <Routes>
-      
         <Route path='/' element={<Home />} />
         <Route path='/marketplace' element={<MarketPlace />} />
         <Route path='/collections' element={<Collections />} />
       
       </Routes>
-      
       
     </>
   );

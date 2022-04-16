@@ -33,7 +33,7 @@ function NavBar() {
                     <i className={ click ? "uil uil-multiply" : "uil uil-align-left"}></i>  
                 </button>
                 
-                <h4 className="logo">Artry</h4>
+                <Link className="logo" to='/'>Artry</Link>
                 <ul className={ click ? 'links active' : 'links'}>
                     <li>
                        <Link to='/' onClick={closeMobileMenu}>Home</Link>

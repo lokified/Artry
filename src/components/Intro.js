@@ -35,7 +35,7 @@ function Intro() {
                         
                         <div className="intro_card">
                             <div className="intro_card-header">
-                                <img src="images/nft11.jpeg" alt="" />
+                                <img src="/public/images/nft11.jpeg" alt="" />
                                 <img src="images/nft4.jpg" alt="" />
                                 <img src="images/nft5.jpg" alt="" />
                                 <img src="images/nft8.avif" alt="" />

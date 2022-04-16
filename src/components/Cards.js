@@ -4,7 +4,6 @@ import './Cards.css';
 
 function Cards() {
 
-    const collections = ['haze', 'jksdfkjs', 'sfjskf', 'ksbfjasf', 'sjbsj']
     return ( 
         <section className="live_auctions">
           <h3>Live Auctions</h3>
@@ -26,7 +25,7 @@ function Cards() {
                 price='8.4 ETH'/>
 
 
-               <Card 
+              <Card 
                 userCollection='Neight'
                 userName='Anu Schwatz'
                 userImage='/images/peaky.png'
