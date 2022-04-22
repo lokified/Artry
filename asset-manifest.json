@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Artry/static/css/main.e7c2670a.css",
-    "main.js": "/Artry/static/js/main.8955ac80.js",
+    "main.js": "/Artry/static/js/main.a9ed6c4b.js",
     "index.html": "/Artry/index.html",
     "main.e7c2670a.css.map": "/Artry/static/css/main.e7c2670a.css.map",
-    "main.8955ac80.js.map": "/Artry/static/js/main.8955ac80.js.map"
+    "main.a9ed6c4b.js.map": "/Artry/static/js/main.a9ed6c4b.js.map"
   },
   "entrypoints": [
     "static/css/main.e7c2670a.css",
-    "static/js/main.8955ac80.js"
+    "static/js/main.a9ed6c4b.js"
   ]
 }
