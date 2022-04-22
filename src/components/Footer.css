@@ -33,6 +33,13 @@
 }
 .footer_socials{
     display: flex;
+    justify-content: center;
+    margin-left: -2rem;
+}
+
+.footer_socials a{
+    color: var(--cl-white);
+    
 }
 
 
