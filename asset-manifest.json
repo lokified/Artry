@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7c2670a.css",
-    "main.js": "/static/js/main.8955ac80.js",
-    "index.html": "/index.html",
-    "main.e7c2670a.css.map": "/static/css/main.e7c2670a.css.map",
-    "main.8955ac80.js.map": "/static/js/main.8955ac80.js.map"
+    "main.css": "/Artry/static/css/main.e7c2670a.css",
+    "main.js": "/Artry/static/js/main.8955ac80.js",
+    "index.html": "/Artry/index.html",
+    "main.e7c2670a.css.map": "/Artry/static/css/main.e7c2670a.css.map",
+    "main.8955ac80.js.map": "/Artry/static/js/main.8955ac80.js.map"
   },
   "entrypoints": [
     "static/css/main.e7c2670a.css",
