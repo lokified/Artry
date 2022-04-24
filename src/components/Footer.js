@@ -22,19 +22,19 @@ function Footer() {
                         <h5>Quick links</h5>
         
                         <ul className="quick_links">
-                            <li><a href="index.html"> Home</a></li>
-                            <li><a href="market.html">Market</a></li>
-                            <li><a href="artist.html">Artist</a></li>
-                            <li><a href="collections.html">Collections</a></li>
+                            <li><a href="#"> Home</a></li>
+                            <li><a href="#">Market</a></li>
+                            <li><a href="#">Artist</a></li>
+                            <li><a href="c#">Collections</a></li>
         
                         </ul>
                     </div>
 
                     <div className='footer_3'>
                         <h5>Contact Us</h5>
-                        <a to='/'>Support</a>
-                        <a to='/'>Destinations</a>
-                        <a to='/'>Sponsorships</a>
+                        <a href='#'>Support</a>
+                        <a href='#'>Destinations</a>
+                        <a href='#'>Sponsorships</a>
                     </div>
         
                     <div className="footer_4">

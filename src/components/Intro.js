@@ -35,13 +35,13 @@ function Intro() {
                         
                         <div className="intro_card">
                             <div className="intro_card-header">
-                                <img src="/public/images/nft11.jpeg" alt="" />
-                                <img src="images/nft4.jpg" alt="" />
-                                <img src="images/nft5.jpg" alt="" />
-                                <img src="images/nft8.avif" alt="" />
+                                <img src="../images/nft11.jpeg" alt="" />
+                                <img src="../images/nft4.jpg" alt="" />
+                                <img src="../images/nft5.jpg" alt="" />
+                                <img src="../images/nft8.avif" alt="" />
                             </div>
                             <div className="intro_card_img">
-                                <img src="images/nft1.webp" alt="" />
+                                <img src="../images/nft1.webp" alt="" />
                             </div>
                             <div className="intro_card_info">
                                 <p className="intro_card_user-name">Rasta <br/> Haze</p>
@@ -61,13 +61,13 @@ function Intro() {
             
                         <div className="intro_card">
                             <div className="intro_card-header">
-                                <img src="images/nft11.jpeg" alt="" />
-                                <img src="images/nft4.jpg" alt=""/>
-                                <img src="images/nft5.jpg" alt=""/>
-                                <img src="images/nft8.avif" alt=""/>
+                                <img src="../images/nft11.jpeg" alt="" />
+                                <img src="../images/nft4.jpg" alt=""/>
+                                <img src="../images/nft5.jpg" alt=""/>
+                                <img src="../images/nft8.avif" alt=""/>
                             </div>
                             <div className="intro_card_img">
-                                <img src="images/nft8.avif" alt=""/>
+                                <img src="./images/nft8.avif" alt=""/>
                             </div>
                             <div className="intro_card_info">
                                 <p className="intro_card_user-name">Rasta <br/> Haze</p>
